@@ -32,9 +32,9 @@ li a:hover {
 }
 
 * {
-      font-family: 'Poppins', sans-serif;
-      text-decoration: none;
-      color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
 }
 
 header {
@@ -52,8 +52,8 @@ main {
 
 .maintable {
     border-radius: 10px;
-    background-color: rgb(68, 67, 67);
-    border: 10px solid rgb(68, 67, 67);
+    background-color: rgb(47, 47, 47);
+    border: 10px solid rgb(47, 47, 47);
     padding: 10px;
 }
 
@@ -62,12 +62,12 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     left: 0px;
     width: 100%;
     background-color: black;
-    margin-top: 100px;
+    margin-top: 50px;
 }
   
 .footer {
@@ -92,4 +92,9 @@ label {
 .flex-container {
     display: flex;
     flex-direction: row;
+}
+
+.designer {
+    text-align: right;
+    margin-top: 25px;
 }
